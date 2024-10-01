@@ -115,12 +115,14 @@ h6 {
   margin-top: 0;
 }
 
-.sidebar-sticky .toc-section .toc-header {
-  padding: 8px;
-  font-size: 20px;
-  background-color: $doctrine-dark-blue;
-  margin-bottom: 0;
-  color: #fff;
+.sidebar-sticky {
+  .toc-section .toc-header, .toc .caption {
+    padding: 8px;
+    font-size: 20px;
+    background-color: $doctrine-dark-blue;
+    margin-bottom: 0;
+    color: #fff;
+  }
 }
 
 /** 1st Level */
